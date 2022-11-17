@@ -6,3 +6,4 @@ this app ia made for the students of fybca padra to download or view the solutio
 # two major contributor
 - om vataliya @om23x
 - dev Patel @dev22419
+- dhyey patel 
