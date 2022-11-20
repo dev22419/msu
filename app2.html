@@ -1,0 +1,218 @@
+<!--code by : dev patel , harshul rathod-->
+<!-- https://www.github.com/dev22419 -->
+<html>
+    <head>
+        <title>msu bca fy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+body{
+		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+	}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	   }
+	50% {
+			background-position: 100% 50%;
+		}
+	100% {
+			background-position: 0% 50%;
+		 }
+}
+
+div.text {
+	background: linear-gradient(-45deg, #0f0e0f, #6355a4, #82e83e, #e89a3e);
+	background-size: 300%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 5vw;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+.textShineBlack {
+  background: linear-gradient(to right, #000 20%, #bada55 30%, #bada44 70%, #000 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 7s ease-in-out infinite alternate;
+  font-size:22px;
+  font-family:arial;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}
+
+@keyframes hr-animation {
+  from{ transform: translate(0, 0); }
+  to{ transform: translate(50%, 0); }
+}
+@-webkit-keyframes hr-animation {
+  from{ -webkit-transform: translate(0, 0); }
+  to{ -webkit-transform: translate(50%, 0); }
+}
+.hr-animation {
+  -webkit-animation: hr-animation 5s linear infinite;
+  animation: hr-animation 5s linear infinite;
+}
+
+body {
+  margin: 19px 0 0 0;
+  
+}
+
+.colored {
+  background-image: linear-gradient(left, #0a0a0a, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #141413 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #121310 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #0a0a09 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.container {
+  overflow: hidden;
+  width: 600px;
+  
+}
+
+.wrap {
+  font-size: 0;
+  height: 5px;
+  width: 200%;
+  position: relative;
+}
+
+.wrap hr {
+  border: none;
+  height: 5px;
+  width: 50%;
+  position: absolute;
+}
+
+.wrap hr:last-child {
+  left: -50%;
+}
+         
+.btn-grad {
+            background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB  51%, #1F1C2C  100%);
+            margin: 10px;
+            padding: 8px 50px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px rgb(250, 247, 247);
+            border-radius: 17px;
+            text-decoration: none;
+            display: block;
+            left:120px;
+            
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+          .zoom {
+  padding: 50px;
+  
+  transition: transform .2s; /* Animation */
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+		</style>
+    </head>
+    <body>
+	
+        <h1 align="center" style="font-size: 50px;" >
+        <div class="text">BCA FY padra</div></h1>
+
+            <center > <div class="container"  >
+                    <div class="wrap hr-animation">
+                    <hr class="colored ">
+                    <hr class="colored "> 
+                    </div>
+                </div>
+                </center>
+                <p align="center" class="textShineBlack">This is a website built for the students of fy BCA (padra) . <br>
+                    where everyone can access the code for all the practical for every subject .
+                </p >
+                <!---<ul type="disc" style="font-size: 35px;">
+                    <li>Codes for the practical .</li>
+                    <ul type="disc">
+                        <li><a href="python.html">Python</a></li>
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">PCDB</a></li>
+                        <li><a href="">PCSW</a></li>
+                    </ul>
+                </ul>
+                --->
+                <p align="center">
+                    <a href="./pro/python/index.html">
+                        <img src="./img/python.png" alt="nothing" height="250px" class="Zoom">
+                    <button class="btn-grad" ><h1 align="center">Python</h1></button>
+                    </a>
+                </p>
+                <p align="center" style="bottom:12px;">
+                    <a href="./html/index.html">
+                    <img src="./img/html.webp" alt="nothing" height="250px" class="Zoom" >
+                    <button class="btn-grad" ><h1 align="center">HTML</h1></button>
+                    </a>
+                
+                </p>
+                <p align="center" style="bottom:12px;">
+                  <a href="https://www.github.com/dev22419/msu">
+                  <img src="./img/git.jpg" alt="nothing" height="250px" class="Zoom" style="border-radius: 50%;" >
+                  <button class="btn-grad" ><h1 align="center">source code</h1></button>
+                  </a>
+              
+              </p>
+              <hr color="black">
+              <h2 align="center">NOTE : if you face any problem in the app please share your problem in the feedback tab from the slide bar .</h2>
+              <hr color="black">
+              <br>
+                
+                <!-- <p align="center">
+                    <a href="./pcsw/index.html">
+                    <img src="..\img\sw.png" alt="nothing" height="250px">
+                    <h1 align="center">PCSW</h1>
+                    </a>
+                </p>
+                <p align="center">
+                    <a href="./pcdb/index.html">
+                    <img src="..\img\db.png" alt="nothing" height="250px">
+                    <h1 align="center">PCDB</h1>
+                    </a> 
+                </p>
+                 -->
+        </div>
+ </body>
+</html>
